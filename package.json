@@ -8,10 +8,10 @@
     "start": "node ./dist/main.js",
     "lint": "eslint ./src/**",
     "dev": "nodemon",
+    "test": "jest",
     "generate": "prisma generate",
     "lint:fix": "eslint ./src/** --fix",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
